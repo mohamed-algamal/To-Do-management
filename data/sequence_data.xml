@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_projects" model="ir.sequence"> <!-- id anything you went -->
+        <field name="name">projects</field> <!-- name anything you went -->
+        <field name="code">projects</field> <!-- code anything you went -->
+        <field name="prefix">P</field>
+        <field name="padding">4</field> <!-- many number after prefix -->
+        <field name="company_id" eval="False"/>
+    </record>
+
+</odoo>
